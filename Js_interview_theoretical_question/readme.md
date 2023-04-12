@@ -1,3 +1,13 @@
+<details>
+<summary>
+    <h3>1. How does React work?</h3>
+</summary>
+
+React creates a virtual DOM. When the state changes in a component it first runs a "diffing" algorithm, which identifies what has changed in the virtual DOM. The second step is reconciliation, where it updates the DOM with the results of diff.
+
+</details>
+
+
 # 1. How does `React` work?
 ### React creates a virtual DOM. When the state changes in a component it first runs a "diffing" algorithm, which identifies what has changed in the virtual DOM
 
